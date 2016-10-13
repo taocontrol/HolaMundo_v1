@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hola Mundo</string>
+    <string name="texto_1" translatable="false">text cero uno</string>
+    <string name="textoo_app">aplication text</string>
+    <string name="titulo_app">app tittle</string>
+    <string name="Enter">Enter</string>
+    <string name="Bienvenido">Welcome</string>
+</resources>

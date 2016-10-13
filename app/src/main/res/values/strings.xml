@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hola Mundo</string>
+    <string name="titulo_app">Mi Hola Mundo</string>
+    <string name="textoo_app">Texto Aplicacion</string>
+    <string name="texto_1">texto_1</string>
+    <string name="Enter">Entrar</string>
+    <string name="Bienvenido">Bienvenido</string>
+</resources>
