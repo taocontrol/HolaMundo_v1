@@ -19,7 +19,7 @@
         android:adjustViewBounds="false"
         android:cropToPadding="false"
         android:contentDescription=""
-        tools:ignore="ContentDescription,RtlHardcoded,UnknownId"
+        tools:ignore="ContentDescription,RtlHardcoded,UnknownId,UnknownIdInLayout"
         android:layout_alignTop="@+id/textView2"
         android:layout_toLeftOf="@+id/imageButton3"
         android:layout_width="match_parent"
@@ -27,22 +27,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         tools:layout_width="match_parent" />
-
-    <TextView
-        android:text="@string/Bienvenido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/black"
-        tools:ignore="RelativeOverlap"
-        android:elevation="0dp"
-        android:layout_marginRight="261dp"
-        android:layout_marginEnd="261dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
     <Button
         android:text="@string/Enter"
@@ -55,4 +39,17 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="194dp" />
+
+    <TextView
+        android:text="@string/Bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        tools:ignore="RelativeOverlap,UnusedAttribute"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
